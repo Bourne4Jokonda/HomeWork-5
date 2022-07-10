@@ -5,7 +5,7 @@
 
 int []arr=new int[10];
 int sum= 0;
-for(int i=0; i<arr.Length;i++)
+for(int i=0; i<arr.Length;i=i+2)
 {
       arr[i] = new Random().Next(-100, 100);
       Console.Write(arr[i]+" ");
